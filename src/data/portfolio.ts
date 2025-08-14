@@ -20,7 +20,7 @@ export const portfolio = [
     image: "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&h=300&fit=crop",
     text: "Chez ArchiWebos, j'ai contribué à la conception du site portfolio de Sophie Blue, architecte d'intérieur. Mon rôle en tant que développeur front-end a impliqué la création de la page de présentation, de la page de connexion de l'administrateur, et d'une modale d'upload de médias.",
     code: "https://example.com",
-    site: "",
+    site: "https://example.com",
     competences: ["HTML", "CSS", "Javascript", "Swagger"],
   },
   {
@@ -28,7 +28,7 @@ export const portfolio = [
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&h=300&fit=crop",
     text: "En tant que développeur front-end freelance, j'ai travaillé avec Kasa, un leader de la location d'appartements entre particuliers en France. J'ai pris en charge la refonte totale de leur site web en utilisant React. Malgré l'absence temporaire du back-end, j'ai réussi à développer l'ensemble de l'application, les composants React, et les routes React Router.",
     code: "https://example.com",
-    site: "",
+    site: "https://example.com",
     competences: ["React", "SASS", "Figma"],
   },
   {
@@ -36,7 +36,7 @@ export const portfolio = [
     image: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=500&h=300&fit=crop",
     text: "En tant que développeur front-end freelance, j'ai été sollicité par l'agence événementielle 724events pour résoudre des problèmes de bugs et finaliser leur site web vitrine. Le projet avait été initialement démarré par un autre développeur. J'ai repris le travail en corrigeant les bugs, et en complétant le cahier de recette pour assurer un fonctionnement sans faille.",
     code: "https://example.com",
-    site: "",
+    site: "https://example.com",
     competences: ["React Dev Tools", "Débogage"],
   },
   {
@@ -44,7 +44,7 @@ export const portfolio = [
     image: "https://images.unsplash.com/photo-1554048612-b6a482b224ec?w=500&h=300&fit=crop",
     text: "En tant que développeur freelance, j'ai proposé mes services d'optimisation SEO à Nina Carducci, une photographe. Après avoir effectué un audit de son site, j'ai identifié des problèmes de vitesse de chargement et de structure. J'ai proposé de résoudre ces problèmes en optimisant les images et le code du site. Mon objectif était d'améliorer son référencement et d'augmenter sa visibilité.",
     code: "https://example.com",
-    site: "",
+    site: "https://example.com",
     competences: ["SEO", "Wave", "Accessibilité"],
   },
   {
@@ -52,7 +52,7 @@ export const portfolio = [
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
     text: "En tant que développeur front-end chez Argent Bank, j'ai travaillé sur la création du tableau de bord des utilisateurs. La première phase impliquait de créer une application web réactive avec React, en utilisant Redux pour la gestion de l'état. Dans la phase 2, j'ai travaillé sur la conception des transactions et j'ai fourni des spécifications Swagger pour les routes API associées.",
     code: "https://example.com",
-    site: "",
+    site: "https://example.com",
     competences: ["React", "Redux", "MongoDB"],
   },
 ];

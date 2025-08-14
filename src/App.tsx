@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from './components/Header.tsx'
+import Hero from './components/Hero.tsx'
+import About from './components/About.tsx'
+import Skills from './components/Skills.tsx'
+import Portfolio from './components/Portfolio.tsx'
+import Contact from './components/Contact.tsx'
+import Footer from './components/Footer.tsx'
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero')
