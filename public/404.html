@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Hugo Clery</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      // Start single page app redirect
+      var l = window.location;
+      if (l.search[1] === '/' ) {
+        var decoded = sessionStorage.redirect || l.search.slice(1);
+        if (decoded) {
+          sessionStorage.redirect = '';
+          history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded.slice(0, -1) +
+              (decoded.slice(-1) === '&' ? '' : l.hash)
+          );
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
