@@ -6,6 +6,7 @@ import Skills from './components/Skills.tsx'
 import Portfolio from './components/Portfolio.tsx'
 import Contact from './components/Contact.tsx'
 import Footer from './components/Footer.tsx'
+import SEOHead from './components/SEOHead.tsx'
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero')
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <div className="bg-gray-900 text-white min-h-screen">
+      <SEOHead />
       <Header activeSection={activeSection} />
       <Hero />
       <About />

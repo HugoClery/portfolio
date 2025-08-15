@@ -27,9 +27,9 @@ const Header = ({ activeSection }: HeaderProps) => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900/90 backdrop-blur-md border-b border-gray-800">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             Hugo Clery
-          </div>
+          </h1>
 
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (

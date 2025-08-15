@@ -1,27 +1,20 @@
-# Workflow pour déployer un projet Vite sur GitHub Pages
 name: Deploy Vite project to Pages
 
 on:
-  # Se déclenche sur les push vers la branche main
   push:
     branches: ["main"]
-
-  # Permet d'exécuter manuellement depuis l'onglet Actions
   workflow_dispatch:
 
-# Permissions nécessaires pour GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Une seule exécution à la fois
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Job de build et déploiement
   deploy:
     environment:
       name: github-pages
@@ -49,7 +42,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload du dossier dist (fichiers buildés)
           path: './dist'
           
       - name: Deploy to GitHub Pages
