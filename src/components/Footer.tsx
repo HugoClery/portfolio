@@ -39,7 +39,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white mb-4">Réseaux</h4>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/hugoclery"
+                href="https://github.com/HugoClery"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-purple-600 transition-all duration-300"
@@ -50,7 +50,7 @@ const Footer = () => {
               </a>
               
               <a
-                href="https://linkedin.com/in/hugoclery"
+                href="https://www.linkedin.com/in/hugo-clery-28a64115b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-600 transition-all duration-300"
@@ -61,7 +61,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:contact@hugoclery.dev"
+                href="mailto:cleyhugo62@gmail.com"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-pink-600 transition-all duration-300"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
